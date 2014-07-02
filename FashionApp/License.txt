@@ -1,0 +1,7 @@
+External Libraries & other Links
+
+1) AFNetworking  ----> https://github.com/AFNetworking/AFNetworking
+2) SVPullToRefresh --> https://github.com/samvermette/SVPullToRefresh
+3) libextobjc   -----> https://github.com/jspahrsummers/libextobjc
+4) cocoapods    -----> https://github.com/cocoapods/cocoapods
+5) http://aceontech.com/objc/ios/2014/01/10/weakify-a-more-elegant-solution-to-weakself.html

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LookCell" id="jw1-UI-MBC" customClass="LookCell">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="555"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jw1-UI-MBC" id="XRD-jz-pdG">
+                <rect key="frame" x="0.0" y="0.0" width="1024" height="554"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MAR-yv-RDy" userLabel="ButtonHeart">
+                        <rect key="frame" x="753" y="442" width="70" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                        <state key="normal" title="" backgroundImage="heartSelected">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgM-xR-zws" userLabel="ButtonRestyle">
+                        <rect key="frame" x="837" y="442" width="70" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="10" maxY="0.0"/>
+                        <state key="normal" title="" backgroundImage="restyleSelected">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="highlighted">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bOo-si-hS7" userLabel="ButtonShare">
+                        <rect key="frame" x="921" y="436" width="40" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <state key="normal" backgroundImage="Share">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="share:" destination="jw1-UI-MBC" eventType="touchUpInside" id="PUb-WB-8mW"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEART" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cqw-88-Y6z">
+                        <rect key="frame" x="758" y="490" width="60" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.63137254901960782" green="0.63137254901960782" blue="0.63137254901960782" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESTYLE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9k-Ca-8xX">
+                        <rect key="frame" x="842" y="490" width="60" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.63137254901960782" green="0.63137254901960782" blue="0.63137254901960782" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SHARE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcY-Dm-OUs">
+                        <rect key="frame" x="911" y="490" width="60" height="15"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.63137254901960782" green="0.63137254901960782" blue="0.63137254901960782" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L9e-Ig-9Rl" userLabel="ProductView">
+                        <rect key="frame" x="40" y="30" width="634" height="475"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bsW-zS-9aK">
+                                <rect key="frame" x="0.0" y="91" width="507" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="hKk-py-Yqa"/>
+                                </constraints>
+                                <segments>
+                                    <segment title=""/>
+                                    <segment title="Second"/>
+                                    <segment title=""/>
+                                </segments>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUE-FF-tzX" userLabel="CreatorView">
+                        <rect key="frame" x="753" y="30" width="208" height="388"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="mcY-Dm-OUs" secondAttribute="bottom" constant="49" id="0nI-0M-pLQ"/>
+                    <constraint firstAttribute="bottom" secondItem="R9k-Ca-8xX" secondAttribute="bottom" constant="49" id="4Zh-Pu-txA"/>
+                    <constraint firstItem="Cqw-88-Y6z" firstAttribute="top" secondItem="MAR-yv-RDy" secondAttribute="bottom" constant="8" id="6hd-GE-E08"/>
+                    <constraint firstItem="MAR-yv-RDy" firstAttribute="centerX" secondItem="Cqw-88-Y6z" secondAttribute="centerX" id="7A7-AI-QEf"/>
+                    <constraint firstItem="MAR-yv-RDy" firstAttribute="leading" secondItem="L9e-Ig-9Rl" secondAttribute="trailing" constant="79" id="7T8-P9-wxR"/>
+                    <constraint firstAttribute="trailing" secondItem="mcY-Dm-OUs" secondAttribute="trailing" constant="53" id="8qm-qM-Nkn"/>
+                    <constraint firstItem="L9e-Ig-9Rl" firstAttribute="top" secondItem="XRD-jz-pdG" secondAttribute="top" constant="30" id="DcQ-vl-eja"/>
+                    <constraint firstItem="R9k-Ca-8xX" firstAttribute="leading" secondItem="Cqw-88-Y6z" secondAttribute="trailing" constant="24" id="HY1-Ql-ocv"/>
+                    <constraint firstItem="R9k-Ca-8xX" firstAttribute="top" secondItem="OgM-xR-zws" secondAttribute="bottom" constant="8" id="Kkc-sq-dLW"/>
+                    <constraint firstItem="mcY-Dm-OUs" firstAttribute="leading" secondItem="R9k-Ca-8xX" secondAttribute="trailing" constant="9" id="PeH-SI-IeS"/>
+                    <constraint firstAttribute="trailing" secondItem="bOo-si-hS7" secondAttribute="trailing" constant="63" id="S3K-yS-FMJ"/>
+                    <constraint firstItem="ZUE-FF-tzX" firstAttribute="leading" secondItem="L9e-Ig-9Rl" secondAttribute="trailing" constant="79" id="Ufb-O9-Z0j"/>
+                    <constraint firstItem="R9k-Ca-8xX" firstAttribute="centerX" secondItem="OgM-xR-zws" secondAttribute="centerX" id="VAh-c0-xdE"/>
+                    <constraint firstItem="L9e-Ig-9Rl" firstAttribute="leading" secondItem="XRD-jz-pdG" secondAttribute="leading" constant="40" id="aRb-QM-Tel"/>
+                    <constraint firstItem="ZUE-FF-tzX" firstAttribute="top" secondItem="XRD-jz-pdG" secondAttribute="top" constant="30" id="afP-i2-ZPL"/>
+                    <constraint firstItem="MAR-yv-RDy" firstAttribute="top" secondItem="ZUE-FF-tzX" secondAttribute="bottom" constant="24" id="bd3-MG-ZFh"/>
+                    <constraint firstItem="mcY-Dm-OUs" firstAttribute="centerX" secondItem="bOo-si-hS7" secondAttribute="centerX" id="bdC-m4-TUT"/>
+                    <constraint firstAttribute="bottom" secondItem="L9e-Ig-9Rl" secondAttribute="bottom" constant="49" id="dF6-fN-uIj"/>
+                    <constraint firstAttribute="bottom" secondItem="bOo-si-hS7" secondAttribute="bottom" constant="78" id="h4O-tY-TnH"/>
+                    <constraint firstItem="bOo-si-hS7" firstAttribute="leading" secondItem="OgM-xR-zws" secondAttribute="trailing" constant="14" id="h7W-v6-uHp"/>
+                    <constraint firstAttribute="trailing" secondItem="ZUE-FF-tzX" secondAttribute="trailing" constant="63" id="muq-QV-oHx"/>
+                    <constraint firstItem="OgM-xR-zws" firstAttribute="leading" secondItem="MAR-yv-RDy" secondAttribute="trailing" constant="14" id="q7w-cJ-BB9"/>
+                    <constraint firstAttribute="bottom" secondItem="Cqw-88-Y6z" secondAttribute="bottom" constant="49" id="vih-7u-xQs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnHeart" destination="MAR-yv-RDy" id="2gq-MG-hSc"/>
+                <outlet property="btnRestyle" destination="OgM-xR-zws" id="wH1-1d-X7D"/>
+                <outlet property="btnShare" destination="bOo-si-hS7" id="Ghm-6Y-ThO"/>
+                <outlet property="creatorView" destination="ZUE-FF-tzX" id="Le7-hI-30j"/>
+                <outlet property="productsView" destination="L9e-Ig-9Rl" id="kLP-Q2-gd6"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Share" width="40" height="40"/>
+        <image name="heartSelected" width="70" height="40"/>
+        <image name="restyleSelected" width="70" height="40"/>
+    </resources>
+</document>
