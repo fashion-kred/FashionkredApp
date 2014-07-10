@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		482763B8E2004B8187A1C2C1 /* libPods-FashionApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB447646B8C4F4993ADDF9A /* libPods-FashionApp.a */; };
+		91635A5730D845B1A8B0A7CA /* libPods-FashionKred.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55003203F1E7453DB7F89DF0 /* libPods-FashionKred.a */; };
 		932DAC5E194A8CA000758B5E /* FHLooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932DAC4B194A8CA000758B5E /* FHLooksViewController.m */; };
 		932DAC5F194A8CA000758B5E /* LookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 932DAC4E194A8CA000758B5E /* LookCell.m */; };
 		932DAC60194A8CA000758B5E /* LookCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932DAC4F194A8CA000758B5E /* LookCell.xib */; };
@@ -29,8 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		279EC32F4BE64E23B29324F3 /* Pods-FashionApp.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionApp.xcconfig"; path = "Pods/Pods-FashionApp.xcconfig"; sourceTree = "<group>"; };
-		4EB447646B8C4F4993ADDF9A /* libPods-FashionApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55003203F1E7453DB7F89DF0 /* libPods-FashionKred.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionKred.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		932738FB1962A2EA00233733 /* FashionKred-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FashionKred-Prefix.pch"; sourceTree = "<group>"; };
 		932DAC4A194A8CA000758B5E /* FHLooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHLooksViewController.h; sourceTree = "<group>"; };
 		932DAC4B194A8CA000758B5E /* FHLooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHLooksViewController.m; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		93B7F64A19479AD60034D19B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		93B7F64D19479AD60034D19B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93B7F65219479AD60034D19B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF68B2B3E32B43588D0A239E /* Pods-FashionKred.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionKred.xcconfig"; path = "Pods/Pods-FashionKred.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 				93B7F63D19479AD60034D19B /* CoreGraphics.framework in Frameworks */,
 				93B7F63F19479AD60034D19B /* UIKit.framework in Frameworks */,
 				93B7F63B19479AD60034D19B /* Foundation.framework in Frameworks */,
-				482763B8E2004B8187A1C2C1 /* libPods-FashionApp.a in Frameworks */,
+				91635A5730D845B1A8B0A7CA /* libPods-FashionKred.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 				93B7F64019479AD60034D19B /* FashionApp */,
 				93B7F63919479AD60034D19B /* Frameworks */,
 				93B7F63819479AD60034D19B /* Products */,
-				279EC32F4BE64E23B29324F3 /* Pods-FashionApp.xcconfig */,
+				FF68B2B3E32B43588D0A239E /* Pods-FashionKred.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,7 +147,7 @@
 				93B7F63A19479AD60034D19B /* Foundation.framework */,
 				93B7F63C19479AD60034D19B /* CoreGraphics.framework */,
 				93B7F63E19479AD60034D19B /* UIKit.framework */,
-				4EB447646B8C4F4993ADDF9A /* libPods-FashionApp.a */,
+				55003203F1E7453DB7F89DF0 /* libPods-FashionKred.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-FashionApp-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Pods-FashionKred-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -391,7 +391,7 @@
 		};
 		93B7F66A19479AD60034D19B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 279EC32F4BE64E23B29324F3 /* Pods-FashionApp.xcconfig */;
+			baseConfigurationReference = FF68B2B3E32B43588D0A239E /* Pods-FashionKred.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -405,7 +405,7 @@
 		};
 		93B7F66B19479AD60034D19B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 279EC32F4BE64E23B29324F3 /* Pods-FashionApp.xcconfig */;
+			baseConfigurationReference = FF68B2B3E32B43588D0A239E /* Pods-FashionKred.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
